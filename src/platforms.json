@@ -1,0 +1,34 @@
+{
+    "iPhone4" : {
+        "platformName": "iOS",
+        "screen": {
+            "height": 960,
+            "width" : 640,
+            "ppi" : 326
+        }
+    },
+    "iPhone5" : {
+        "platformName": "iOS",
+        "screen": {
+            "height": 1136,
+            "width" : 640,
+            "ppi" : 326
+        }
+    },
+    "iPhone6" : {
+        "platformName": "iOS",
+        "screen": {
+            "height": 1334,
+            "width" : 750,
+            "ppi" : 326
+        }
+    },
+    "iPhone6Plus" : {
+        "platformName": "iOS",
+        "screen": {
+            "height": 1920,
+            "width" : 1080,
+            "ppi" : 401
+        }
+    }
+}

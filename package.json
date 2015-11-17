@@ -1,0 +1,30 @@
+{
+  "name": "honest-appium",
+  "version": "1.0.0",
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/honest-code/honest-appium.git"
+  },
+  "contributors": [
+    {
+      "name": "Jonas Da Cruz",
+      "email": "jonas.dacruz@intelygenz.com",
+      "url": "@honasu"
+    }
+  ],
+  "license": "ISC",
+  "devDependencies": {
+    "appium": "*",
+    "cucumber": "*",
+    "mocha": "*",
+    "wd": "*"
+  },
+  "engines": {
+    "node": ">= 4.2.1"
+  },
+  "scripts": {
+    "appium-server": "./node_modules/.bin/appium -U {DEVICE_ID}",
+    "test-integration": "./node_modules/.bin/mocha --recursive ./test-integration"
+  }
+}

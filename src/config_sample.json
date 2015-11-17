@@ -1,0 +1,5 @@
+{
+  "APP_NAME" : "honest-appium",
+  "SAURON_HOST" : "127.0.0.1",
+  "SAURON_PORT" : "6666"
+}
