@@ -1,3 +1,5 @@
 --WORK IN PROGRESS--
 # honest-appium
-Honest Appium allows you to use appium connected with Sauron module of honestcode.io
+
+Honest Appium allows you to use Appium connected with Sauron service of honestcode.io
+

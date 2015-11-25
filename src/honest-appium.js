@@ -24,8 +24,6 @@ function appiumStart() {
     return new Promise((resolve, reject) => {
         appiumConnection(settings.host, settings.port, settings.appiumConfig)
             .then(driver=> {
-                console.log(driver.configUrl.href);
-                console.log(driver.configUrl.href+"/session/"+driver.sessionID);
                 appiumDriver = driver;
                 resolve()
             })

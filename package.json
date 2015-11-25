@@ -15,16 +15,22 @@
   ],
   "license": "ISC",
   "devDependencies": {
-    "appium": "*",
     "cucumber": "*",
+    "istanbul": "^0.4.0",
     "mocha": "*",
-    "wd": "*"
+    "mockery": "^1.4.0"
   },
   "engines": {
     "node": ">= 4.2.1"
   },
   "scripts": {
     "appium-server": "./node_modules/.bin/appium -U {DEVICE_ID}",
-    "test-integration": "./node_modules/.bin/mocha --recursive ./test-integration"
+    "test-integration": "./node_modules/.bin/mocha --recursive ./test-integration",
+    "test-unit": "./node_modules/.bin/mocha --recursive ./test-unit",
+    "coverage" : "node --harmony ./node_modules/.bin/istanbul ./test-unit/** ./test-integration/**"
+  },
+  "dependencies": {
+    "appium": "*",
+    "wd": "*"
   }
 }

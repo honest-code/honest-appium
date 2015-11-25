@@ -1,0 +1,19 @@
+reporting:
+    print: summary
+    verbose: true
+    reports:
+        - lcov
+    dir: ./coverage
+check:
+    global:
+        statements: 90
+        lines: 90
+        branches: 50
+        functions: 90
+        excludes: []
+    each:
+        statements: 80
+        lines: 80
+        branches: 0
+        functions: 80
+        excludes: []
